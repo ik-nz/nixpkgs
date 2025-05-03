@@ -4003,8 +4003,8 @@ let
         mktplcRef = {
           name = "prisma";
           publisher = "Prisma";
-          version = "6.6.0";
-          hash = "sha256-7l7J4oTunWL2K9UxbnygaeGxxHqhwJRmYfeW2JRgcvc=";
+          version = "6.7.0";
+          hash = "sha256-HToO43MnqJlWcKx4O5C0b7RXyeKY5PzxMY5/3cNOtgE=";
         };
         meta = {
           changelog = "https://marketplace.visualstudio.com/items/Prisma.prisma/changelog";
@@ -4012,7 +4012,7 @@ let
           downloadPage = "https://marketplace.visualstudio.com/items?itemName=Prisma.prisma";
           homepage = "https://github.com/prisma/language-tools";
           license = lib.licenses.asl20;
-          maintainers = [ ];
+          maintainers = [ lib.maintainers.ik-nz ];
         };
       };
 
